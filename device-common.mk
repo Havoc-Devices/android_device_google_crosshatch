@@ -84,6 +84,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.lmk.kill_heaviest_task=true \
     ro.lmk.kill_timeout_ms=100 \
     ro.lmk.use_minfree_levels=true \
+    ro.lmk.use_psi=true \
 
 # A2DP offload enabled for compilation
 AUDIO_FEATURE_ENABLED_A2DP_OFFLOAD := true

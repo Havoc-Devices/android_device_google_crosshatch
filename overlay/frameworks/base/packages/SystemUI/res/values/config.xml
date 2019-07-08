@@ -44,4 +44,6 @@
     <string name="config_systemUIFactoryComponent"
             translatable="false">com.google.android.systemui.SystemUIGoogleFactory</string>
 
+    <!-- CPUInfoService temperature sysfs path -->
+    <string name="config_cpuinfoSysTemp" translatable="false">/sys/class/thermal/thermal_zone21/temp</string>
 </resources>

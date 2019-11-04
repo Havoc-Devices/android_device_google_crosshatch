@@ -57,5 +57,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 BOARD_PREBUILT_VENDORIMAGE := vendor/images/crosshatch/vendor.img
 
-$(call inherit-product, vendor/google_devices/crosshatch/crosshatch-vendor-blobs.mk)
-$(call inherit-product, vendor/googleapps/googleapps.mk)
+$(call inherit-product, vendor/google/crosshatch/crosshatch-vendor.mk)
+$(call inherit-product, vendor/gapps/gapps.mk)

@@ -166,3 +166,6 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     ims-ext-common \
     ims_ext_common.xml
+
+# Enable updating of APEXes
+$(call inherit-product-if-exists, vendor/google/customization/config.mk)
